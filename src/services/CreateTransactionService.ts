@@ -21,8 +21,12 @@ class CreateTransactionService {
       throw new Error('Tipo da transação inválido.');
     }
 
+    if (type === 'income' && value <= 0) {
+      throw new Error('Depósito inválido.');
+    }
+
     if (type === 'outcome' && value <= 0) {
-      throw new Error('Operação Inválida .');
+      throw new Error('Saque inválido.');
     }
 
     if (type === 'outcome' && total < value) {
