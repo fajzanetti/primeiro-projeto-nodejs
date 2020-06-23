@@ -33,7 +33,7 @@ Essa será uma aplicação para armazenar transações financeiras de entrada e 
     <p align="left">⚫ Regra de négocio.</p>
     <p align="left">🟣 Requisição GET.</p>
     <p align="left">🟢 Requisição POST.</br></br></p>
-    <p align="left">🟣 Inicialmente é feita uma requisição GET á API, como não ha dados na API a lista fica vazia e com o <i>balance</i> zerado.</p>
+    <p align="left">🟣 Inicialmente é feita uma requisição GET á API, como não ha dados na API a lista fica vazia e com o <i>balance</i> zerado. </p>
     <img alt="Get Repos" title="Get Repos" src=".github/01.PNG" />
     <p align="left">🟢 Requisição POST realizada em seguida, fazendo um depósito (<i>income</i>) de <i>value</i> 100.</p>
     <img alt="Get Repos" title="Get Repos" src=".github/02.PNG" />
